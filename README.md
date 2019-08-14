@@ -1,6 +1,6 @@
 ### database mysql
-# gave a user password and with mysql_native_pass
 ```sql
+# gave a user password and with mysql_native_pass
 ALTER USER 'user'@'localhost' IDENTIFIED WITH mysql_native_pass
                              word BY 'pswd'; 
 ```
